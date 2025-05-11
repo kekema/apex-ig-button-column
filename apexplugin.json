@@ -28,7 +28,7 @@
           "internalName" : "LIB4X.AXT.IG.BUTTONCOLUMN",
           "type" : "item",
 	  "demo" : "https://apex.oracle.com/pls/apex/r/yola/demo/ig-button-column",
-	  "previewImage" : "https://github.com/kekema/apex-ig-simple-choice-column/blob/main/ig-simplechoicecolumn.jpg?raw=true"
+	  "previewImage" : "https://github.com/kekema/apex-ig-simple-choice-column/blob/main/ig-button-column-preview.jpg?raw=true"
         }
       }
     }
