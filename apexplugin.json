@@ -1,0 +1,35 @@
+{
+    "name" : "IG Button Column",
+    "version" : "1.0.0",
+    "description" : "IG Plugin for adding a Button Column, displaying a button in each row. #lib4x",
+    "keywords" : ["Interactive Grid", "Button"],
+    "homepage" : "https://github.com/kekema/apex-ig-button-column",
+    "bugs" : {
+      "url" : "https://github.com/kekema/apex-ig-button-column/issues",
+      "email" : "karel0008@gmail.com"
+    },
+    "license" : "MIT",
+    "commercial" : "No",
+    "author" : {
+      "name" : "Karel Ekema",
+      "email" : "karel0008@gmail.com",
+      "url" : "https://www.ekema-it.com/",
+      "twitter": "@KarelEkema"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/kekema/apex-ig-button-column"
+    },
+    "oracle" : {
+      "versions": ["19.0.0.0"],	
+      "apex" : {
+        "versions" : ["24.2"],
+        "plugin" : {
+          "internalName" : "LIB4X.AXT.IG.BUTTONCOLUMN",
+          "type" : "item",
+	  "demo" : "https://apex.oracle.com/pls/apex/r/yola/demo/ig-button-column",
+	  "previewImage" : "https://github.com/kekema/apex-ig-simple-choice-column/blob/main/ig-simplechoicecolumn.jpg?raw=true"
+        }
+      }
+    }
+}
