@@ -1,5 +1,5 @@
 # apex-ig-button-column
-Enabling a button column in IG, displaying a button in every row. DA's (on click) can be attached or an action can be specified (from the action framework) for any button click follow up. There is support for conditional enabling and for button label/class substitution, based on the row data.
+Enabling a button column in IG, displaying a button in every row. DA's (on click) can be attached or an action can be specified (from the action framework) for any button click follow up. In case of a DA, the this.data object will contain the row data. There is support for conditional enabling and for button label/class substitution, based on the row data.
 
 ![image](https://github.com/kekema/apex-ig-button-column/blob/main/ig-button-column-preview.jpg)
 Next settings are supported:
