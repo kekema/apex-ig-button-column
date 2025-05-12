@@ -10,3 +10,5 @@ When making use of conditional enabling of buttons, it is important to have the 
 ![image](https://github.com/user-attachments/assets/173a9b65-93a8-437a-b9a4-99545d6c6788)
 
 So the column won't have any values. Reasons is, when a button is disabled, any button column value won't be submitted upon a row save, resulting in a Session State Violation error in case initially there was a value.
+
+Compatibility of the plugin is with APEX 24.2
