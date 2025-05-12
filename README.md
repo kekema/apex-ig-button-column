@@ -19,4 +19,4 @@ When making use of conditional enabling of buttons, it is important to have the 
 
 So the column won't have any values. Reasons is, when a button is disabled, any button column value won't be submitted upon a row save, resulting in a Session State Violation error in case initially there was a value.
 
-Compatibility of the plugin is with APEX 24.2
+Plugin build on APEX 24.2
