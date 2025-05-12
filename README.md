@@ -12,6 +12,8 @@ As said, for a DA on click, the this.data object has the row data:
 
 this.data.contextRecord has the record from the model. As an alternative, you also find the row data in this.data.contextData in the form of easily accessible native values (for example, the model record has a date as a formatted date; the contextData object has that same date as an ISO string, eg 2024-01-26T13:00:00).
 
+Notice, when the button in a row is used when the row is not in edit mode, you can only access the row data via the this.data object and not via the Column Items as that is only possible when the current row is active (ie in edit mode).
+
 When making use of conditional enabling of buttons, it is important to have the column Source Type as 'None'. 
 ![image](https://github.com/user-attachments/assets/173a9b65-93a8-437a-b9a4-99545d6c6788)
 
