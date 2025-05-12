@@ -6,4 +6,7 @@ Next settings are supported:
 
 ![image](https://github.com/user-attachments/assets/08d0836d-5abf-4ec4-b67b-4c01e5ea0347)
 
-When making use of conditional enabling of buttons, it is important to have the column Source Type as 'None'. So the column won't have any values. Reasons is, when a button is disabled, any button column value won't be submitted upon a row save, resulting in a Session State Violation error in case initially there was a value.
+When making use of conditional enabling of buttons, it is important to have the column Source Type as 'None'. 
+![image](https://github.com/user-attachments/assets/173a9b65-93a8-437a-b9a4-99545d6c6788)
+
+So the column won't have any values. Reasons is, when a button is disabled, any button column value won't be submitted upon a row save, resulting in a Session State Violation error in case initially there was a value.
